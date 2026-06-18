@@ -2,7 +2,12 @@
   "required": true,
   "package": "com.jooi.additionaladdress.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
+  "mixins": [
+
+  ],
+  "client": [
+    "StockKeeperRequestScreenExtraAddressMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   },
