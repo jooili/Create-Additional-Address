@@ -10,7 +10,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
 
 public enum AllGuiTextures implements ScreenElement, TextureSheetSegment {
-    STOCK_KEEPER_REQUEST_ADDRESS("stock_keeper", 0, 0, 140, 24);
+    STOCK_KEEPER_REQUEST_ADDRESS("stock_keeper", 0, 0, 224, 25);
 
     public static final int FONT_COLOR = 0x575F7A;
 
