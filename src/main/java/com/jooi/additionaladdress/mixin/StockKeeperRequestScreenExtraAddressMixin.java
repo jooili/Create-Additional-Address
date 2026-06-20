@@ -161,7 +161,7 @@ public abstract class StockKeeperRequestScreenExtraAddressMixin extends Abstract
         if (createadditionaladdress$SecondAddressBox.getValue().isBlank()
                 && !createadditionaladdress$SecondAddressBox.isFocused())
         {
-            graphics.drawString(Minecraft.getInstance().font, CreateLang.translate("gui.stock_keeper.package_adress")
+            graphics.drawString(Minecraft.getInstance().font, CreateLang.translate("gui.stock_keeper.package_address")
                             .style(ChatFormatting.ITALIC)
                             .component(),
                     createadditionaladdress$SecondAddressBox.getX(),
